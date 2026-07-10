@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background: var(--bg-primary);
+    font-family: "Noto Kufi Arabic", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+} :root {
+  /* ===== Backgrounds ===== */
+  --bg-primary: #F7F3EB;
+  --bg-secondary: #EFE7DA;
+
+  /* ===== Brand Colors ===== */
+  --color-primary: #2F5D50;
+  --color-primary-hover: #3D7362;
+  --color-accent: #6D9A8C;
+
+  /* ===== Cards ===== */
+  --card-bg: #FCFAF5;
+  --card-bg-elevated: #F5EFE3;
+  --card-hover: #EEE6D7;
+
+  /* ===== Text ===== */
+  --text-primary: #24332D;
+  --text-secondary: #5F6E67;
+  --text-placeholder: #8D978F;
+  --text-on-primary: #FFFFFF;
+
+  /* ===== Header ===== */
+  --header-bg: #2F5D50;
+  --header-text: #FAF8F3;
+
+  /* ===== Borders ===== */
+  --border-color: #DCCFBD;
+  --divider-color: #D7CCBB;
+  --input-border: #CDBEAA;
+
+  /* ===== Buttons ===== */
+  --button-primary: #2F5D50;
+  --button-primary-hover: #3D7362;
+  --button-primary-active: #25483F;
+
+  --button-secondary: #E6DDD0;
+  --button-secondary-hover: #DDD1C0;
+
+  /* ===== Gradients ===== */
+  --gradient-primary: linear-gradient(
+    135deg,
+    #2F5D50 0%,
+    #456F63 45%,
+    #6D9A8C 100%
+  );
+
+  --gradient-background: linear-gradient(
+    180deg,
+    #F7F3EB 0%,
+    #EFE7DA 100%
+  );
+
+  /* ===== Shadow ===== */
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+} .header {
+    position: fixed;
+    z-index: 2;
+    inset: 0;
+    width: 100%;
+    height: clamp(4rem, 10vh, 7rem);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    background: var(--gradient-primary);
+    text-align: center;
+    align-content: center;
+    color: var(--header-text);
+    font-size: 1.2em;
+    font-weight: 500;
+} .cards-area {
+    width: 100%;
+    height: auto;
+    padding-top: clamp(4rem, 10vh, 7rem);
+    overflow: hidden;
+} .surah {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--divider-color);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2.5em;
+    background: var(--card-bg);
+} .listen {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: transparent;
+    border: none;
+} .listen:hover {
+    background: #8D978F;
+} svg {
+    fill: var(--button-primary);
+    width: 2.5em;
+    height: auto;
+} .names {
+    margin: 0 40px 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+} .surah-num {
+    color: var(--button-primary);
+} 
