@@ -145,8 +145,8 @@ body {
 } .search-btn {
     position: absolute;
     top: 50%;
-    right: 0.5%;
-    translate: 0.5% -50%;
+    right: 2%;
+    translate: 2% -50%;
     background: transparent;
     border: none;
 } .search-icon, .exit-icon {
