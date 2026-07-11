@@ -6,10 +6,12 @@ const searchInput = document.querySelector(".search")
 const exitBtn = document.querySelector(".exit-btn")
 searchBtn.addEventListener("click", () => {
     searchArea.classList.toggle("appear")
+    if (searchArea.classList.contains("appear")) {
     setTimeout(() => {
         searchInput.click()
         searchInput.focus()
     }, 100)
+  }
 })
 
 exitBtn.addEventListener("click", () => {
