@@ -1,7 +1,7 @@
 {
   "name": "قرآني",
   "short_name": "قرآني",
-  "start_url": "./Qurani---Quran-web-app/",
+  "start_url": "/Qurani---Quran-web-app/",
   "display": "standalone",
   "background_color": "#FCFAF5",
   "theme_color": "#2F5D50",
